@@ -1,5 +1,58 @@
 {
-  "node": {},
+  "node": {
+    "00792a97f519af6701db20a8f5fb175028799030df": {
+      "workers": {
+        "app/admin/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/login/page": "rsc"
+      },
+      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\admin\\login\\actions.ts",
+      "exportedName": "logout"
+    },
+    "609f89acb20ae3f608b49dae4569cfa2a67bfe3558": {
+      "workers": {
+        "app/admin/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/login/page": "rsc"
+      },
+      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\admin\\login\\actions.ts",
+      "exportedName": "login"
+    },
+    "608cc4fded357f0ad90504e4baba41ddc7001c624b": {
+      "workers": {
+        "app/(public)/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5C(public)%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%22608cc4fded357f0ad90504e4baba41ddc7001c624b%22%2C%22exportedName%22%3A%22submitNewsletter%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5C(public)%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5C(public)%5C%5Ccontact%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2260bfb29d13516887b1ea0c168b945f4828b973d799%22%2C%22exportedName%22%3A%22submitInquiry%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5C(public)%5C%5Ccontact%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(public)/page": "action-browser"
+      },
+      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\(public)\\actions.ts",
+      "exportedName": "submitNewsletter"
+    },
+    "60bfb29d13516887b1ea0c168b945f4828b973d799": {
+      "workers": {
+        "app/(public)/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5C(public)%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%22608cc4fded357f0ad90504e4baba41ddc7001c624b%22%2C%22exportedName%22%3A%22submitNewsletter%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5C(public)%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5C(public)%5C%5Ccontact%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2260bfb29d13516887b1ea0c168b945f4828b973d799%22%2C%22exportedName%22%3A%22submitInquiry%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5C(public)%5C%5Ccontact%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(public)/page": "action-browser"
+      },
+      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\(public)\\contact\\actions.ts",
+      "exportedName": "submitInquiry"
+    }
+  },
   "edge": {},
   "encryptionKey": "BdPyVSczCm2RiwHmQdpkon3sl+JTQn9IK2HoKJFnvJc="
 }

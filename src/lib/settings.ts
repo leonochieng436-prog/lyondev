@@ -4,6 +4,24 @@ import { db } from "./db";
 export const LYONDEV_EMAIL = "leonochieng436@gmail.com";
 export const LYONDEV_WHATSAPP = "254757308631";
 export const LYONDEV_WHATSAPP_DISPLAY = "+254757308631";
+export const HOME_IMAGE_SETTINGS = [
+  {
+    key: "homeHeroImage",
+    title: "Homepage hero",
+    description: "Background image behind the main homepage headline.",
+  },
+  {
+    key: "homeAboutImage",
+    title: "About section",
+    description: "Image beside the homepage introduction.",
+  },
+  {
+    key: "homeSpecializationsImage",
+    title: "Specializations section",
+    description: "Image beside the homepage specialization list.",
+  },
+] as const;
+
 export const getSettings = cache(async () => ({
   ...Object.fromEntries((await db.siteSetting.findMany()).map((r) => [r.key, r.value])),
   email: LYONDEV_EMAIL,
