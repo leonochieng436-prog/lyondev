@@ -59,7 +59,7 @@ Roles (enforced on the server with `requirePerm()` in every page and action): **
 - Rate limiting is per-email for inquiries and lockout-based for login; add an edge rate limiter (e.g. Upstash) before heavy traffic. Add Turnstile/reCAPTCHA if spam appears.
 - `sitemap.xml` includes published services, non-demo portfolio projects, published insights and industry pages. Demo projects are excluded from indexing and the sitemap.
 - No inquiry notes UI, no email on consultation status changes, no bulk actions or table sorting, no line-by-line quote PDF export.
-- File uploads are limited to JPG/PNG/WebP up to 5 MB with signature checks; documents/attachments on the quote form are not implemented.
+- File uploads are limited to JPG/PNG/WebP up to 5 MB with signature checks; the Server Action request limit is 6 MB to accommodate them. Documents/attachments on the quote form are not implemented.
 - Test every flow once on staging before launch: login and each role, inquiry, quote wizard, consultation booking, password reset, media upload, mobile menu.
 
 ## 7. SEO and local search
