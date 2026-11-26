@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 
 const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-if (process.env.NODE_ENV === "production" && !configuredSiteUrl) {
-  throw new Error("NEXT_PUBLIC_SITE_URL must be configured for production SEO URLs.");
-}
-
-export const SITE_URL = (configuredSiteUrl ?? "http://localhost:3000").replace(/\/+$/, "");
+export const SITE_URL = (configuredSiteUrl ?? "https://lyondev-nu.vercel.app").replace(/\/+$/, "");
 
 export const COMPANY_DESCRIPTION =
   "Nairobi-based LYONDEV builds professional websites, custom software and eCommerce solutions for businesses across Kenya.";
