@@ -1,31 +1,5 @@
 {
   "node": {
-    "00792a97f519af6701db20a8f5fb175028799030df": {
-      "workers": {
-        "app/admin/login/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/admin/login/page": "rsc"
-      },
-      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\admin\\login\\actions.ts",
-      "exportedName": "logout"
-    },
-    "609f89acb20ae3f608b49dae4569cfa2a67bfe3558": {
-      "workers": {
-        "app/admin/login/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/admin/login/page": "rsc"
-      },
-      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\admin\\login\\actions.ts",
-      "exportedName": "login"
-    },
     "608cc4fded357f0ad90504e4baba41ddc7001c624b": {
       "workers": {
         "app/(public)/page": {
@@ -51,6 +25,91 @@
       },
       "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\(public)\\contact\\actions.ts",
       "exportedName": "submitInquiry"
+    },
+    "00792a97f519af6701db20a8f5fb175028799030df": {
+      "workers": {
+        "app/admin/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/admin/dashboard/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/admin/settings/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2240589f25139cb029b3a981c00878ccaa46586ebfed%22%2C%22exportedName%22%3A%22saveSettings%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%2260e9cc88f147dd797700fe9bbd30d74f3acd75acbf%22%2C%22exportedName%22%3A%22saveImageSetting%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2260b4e083ea6bcec4006036eb275909b5c4332e4c1b%22%2C%22exportedName%22%3A%22upload%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/login/page": "rsc",
+        "app/admin/dashboard/page": "rsc",
+        "app/admin/settings/page": "rsc"
+      },
+      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\admin\\login\\actions.ts",
+      "exportedName": "logout"
+    },
+    "609f89acb20ae3f608b49dae4569cfa2a67bfe3558": {
+      "workers": {
+        "app/admin/login/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/admin/dashboard/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/admin/settings/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2240589f25139cb029b3a981c00878ccaa46586ebfed%22%2C%22exportedName%22%3A%22saveSettings%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%2260e9cc88f147dd797700fe9bbd30d74f3acd75acbf%22%2C%22exportedName%22%3A%22saveImageSetting%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2260b4e083ea6bcec4006036eb275909b5c4332e4c1b%22%2C%22exportedName%22%3A%22upload%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/login/page": "rsc",
+        "app/admin/dashboard/page": "rsc",
+        "app/admin/settings/page": "rsc"
+      },
+      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\admin\\login\\actions.ts",
+      "exportedName": "login"
+    },
+    "40589f25139cb029b3a981c00878ccaa46586ebfed": {
+      "workers": {
+        "app/admin/settings/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2240589f25139cb029b3a981c00878ccaa46586ebfed%22%2C%22exportedName%22%3A%22saveSettings%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%2260e9cc88f147dd797700fe9bbd30d74f3acd75acbf%22%2C%22exportedName%22%3A%22saveImageSetting%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2260b4e083ea6bcec4006036eb275909b5c4332e4c1b%22%2C%22exportedName%22%3A%22upload%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/settings/page": "rsc"
+      },
+      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\admin\\settings\\actions.ts",
+      "exportedName": "saveSettings"
+    },
+    "60e9cc88f147dd797700fe9bbd30d74f3acd75acbf": {
+      "workers": {
+        "app/admin/settings/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2240589f25139cb029b3a981c00878ccaa46586ebfed%22%2C%22exportedName%22%3A%22saveSettings%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%2260e9cc88f147dd797700fe9bbd30d74f3acd75acbf%22%2C%22exportedName%22%3A%22saveImageSetting%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2260b4e083ea6bcec4006036eb275909b5c4332e4c1b%22%2C%22exportedName%22%3A%22upload%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/settings/page": "rsc"
+      },
+      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\admin\\settings\\actions.ts",
+      "exportedName": "saveImageSetting"
+    },
+    "60b4e083ea6bcec4006036eb275909b5c4332e4c1b": {
+      "workers": {
+        "app/admin/settings/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2200792a97f519af6701db20a8f5fb175028799030df%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%22609f89acb20ae3f608b49dae4569cfa2a67bfe3558%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2240589f25139cb029b3a981c00878ccaa46586ebfed%22%2C%22exportedName%22%3A%22saveSettings%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%2C%7B%22id%22%3A%2260e9cc88f147dd797700fe9bbd30d74f3acd75acbf%22%2C%22exportedName%22%3A%22saveImageSetting%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Csettings%5C%5Cactions.ts%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%2C%5B%7B%22id%22%3A%2260b4e083ea6bcec4006036eb275909b5c4332e4c1b%22%2C%22exportedName%22%3A%22upload%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5COchibo%5C%5CDesktop%5C%5Clyondev-v2%5C%5Csrc%5C%5Capp%5C%5Cadmin%5C%5Cmedia%5C%5Cactions.ts%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/settings/page": "rsc"
+      },
+      "filename": "../C:\\Users\\Ochibo\\Desktop\\lyondev-v2\\src\\app\\admin\\media\\actions.ts",
+      "exportedName": "upload"
     }
   },
   "edge": {},
