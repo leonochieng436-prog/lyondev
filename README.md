@@ -29,6 +29,7 @@ This code was written without a live database or `prisma generate` available, so
 ## 3. Using the admin (`/admin/login`)
 Roles (enforced on the server with `requirePerm()` in every page and action): **ADMIN** everything · **EDITOR** content (services, pricing, add-ons, portfolio, solutions, testimonials, insights, media) · **SALES** inquiries, quotes, consultations.
 - **Settings** (ADMIN): company name, tagline, about/vision/mission/values, phone, socials, Google Analytics ID, FAQ JSON, and address. A physical address is hidden from the public site unless `addressPubliclyVerified` is explicitly set to `true` after verification.
+- **Homepage images** (ADMIN): upload separate images for the hero, introduction, and specializations sections. Portfolio and insight cover images are uploaded independently on their individual records.
 - **Privacy requests** (ADMIN only): review and update the status of requests submitted through `/privacy-request`. Keep request details confidential and follow the approved verification and response process.
 - **Pricing / Add-ons**: edit packages and calculator add-ons; features are one per line. The calculator at `/request-quote` and `/pricing` read these.
 - **Portfolio**: tick "Demonstration project" for placeholders (labelled on the site); only add real results you can verify.

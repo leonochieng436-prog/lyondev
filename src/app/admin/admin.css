@@ -990,6 +990,58 @@
   font-weight: 400;
 }
 
+.admin-image-settings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.admin-image-setting {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  min-width: 0;
+  border: 1px solid var(--admin-line);
+  padding: 16px;
+  background: var(--admin-surface);
+}
+
+.admin-image-setting > header h3,
+.admin-image-setting > header p {
+  margin: 0;
+}
+
+.admin-image-setting > header p,
+.admin-image-setting-empty {
+  color: var(--admin-muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.admin-image-setting-preview {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--admin-line);
+  background: var(--admin-neutral-bg);
+  object-fit: cover;
+}
+
+.admin-image-setting-form {
+  display: grid;
+  gap: 10px;
+}
+
+.admin-image-setting-form label {
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.admin-image-setting-form input[type="file"] {
+  min-width: 0;
+  max-width: 100%;
+  font-size: 12px;
+}
+
 .admin-upload-message {
   margin: 9px 0 0;
   color: var(--admin-muted);

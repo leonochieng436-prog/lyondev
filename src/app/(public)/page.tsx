@@ -41,7 +41,7 @@ const STEPS = [
 
 export default async function Home() {
   const settings = await getSettings();
-  const [services, packages, projects, testimonials, industries, heroProject, aboutImage] =
+  const [services, packages, projects, testimonials, industries, heroProject, latestImage] =
     await Promise.all([
       db.service.findMany({
         where: { status: "PUBLISHED" },
@@ -76,6 +76,19 @@ export default async function Home() {
         select: { url: true },
       }),
     ]);
+
+  const heroImage =
+    typeof settings.homeHeroImage === "string" && settings.homeHeroImage
+      ? settings.homeHeroImage
+      : heroProject?.coverUrl;
+  const aboutImage =
+    typeof settings.homeAboutImage === "string" && settings.homeAboutImage
+      ? settings.homeAboutImage
+      : latestImage?.url;
+  const specializationsImage =
+    typeof settings.homeSpecializationsImage === "string" && settings.homeSpecializationsImage
+      ? settings.homeSpecializationsImage
+      : aboutImage;
 
   const startingPackages = packages.some((item) => item.group !== "CARE")
     ? packages.filter((item) => item.group !== "CARE")
@@ -146,7 +159,7 @@ export default async function Home() {
           inLanguage: "en",
         }}
       />
-      <HeroFrame image={heroProject?.coverUrl}>
+      <HeroFrame image={heroImage}>
         <div className="relative z-10">
           <div className="frame-corners max-w-3xl px-5 py-4 sm:px-9 sm:py-10">
             <p className="mb-3 text-sm font-medium text-brand sm:mb-4">Technology. Innovation. Growth.</p>
@@ -189,7 +202,7 @@ export default async function Home() {
             <Button href="/about" variant="outline" className="mt-8">More about LyonDev</Button>
           </div>
           <OutlineFrameImage
-            src={aboutImage?.url}
+            src={aboutImage}
             alt="A LyonDev project workspace"
             className="order-1 mr-3 sm:mr-5 lg:order-2"
           />
@@ -204,7 +217,7 @@ export default async function Home() {
           title,
           summary: serviceSummary,
         }))}
-        image={aboutImage?.url}
+        image={specializationsImage}
       />
 
       <Section title="Offers" eyebrow="Clear starting points" className="bg-ink">
