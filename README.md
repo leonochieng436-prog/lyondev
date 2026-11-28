@@ -8,7 +8,7 @@
    | `AUTH_SECRET` | `openssl rand -base64 32` |
    | `SEED_ADMIN_EMAIL`, `SEED_ADMIN_PASSWORD` | first ADMIN account (use a strong password, change it after login) |
    | `NEXT_PUBLIC_SITE_URL` | `http://localhost:3000` locally, your real domain in production |
-   | `RESEND_API_KEY`, `EMAIL_FROM`, `ADMIN_NOTIFY_EMAIL` | inquiry and password-reset emails (optional; without them reset links print in the server console) |
+   | `RESEND_API_KEY`, `EMAIL_FROM`, `ADMIN_NOTIFY_EMAIL` | inquiry and consultation notifications, plus password-reset emails (optional; without them reset links print in the server console) |
    | `CLOUDINARY_CLOUD_NAME/API_KEY/API_SECRET` | image uploads in Admin → Media (optional) |
 2. `npm install`
 3. `npx prisma generate` then `npx prisma migrate dev --name init`
@@ -48,7 +48,7 @@ Roles (enforced on the server with `requirePerm()` in every page and action): **
 - **Change navigation/footer**: `src/app/(public)/layout.tsx`.
 - **Static homepage copy** (hero, "How we work", "Why choose us") lives in `src/app/(public)/page.tsx`; everything else comes from the database.
 - **Clearing an optional text field**: leaving an optional text box empty keeps the old value. Replace it with a space-free new value, or clear it in `npx prisma studio`.
-- **Email**: inquiry and reset emails use the Resend REST API in `src/app/(public)/contact/actions.ts` and `src/app/admin/forgot/actions.ts`. Verify your sending domain in Resend and set `EMAIL_FROM` to an address on it. Consultation emails are not wired up yet.
+- **Email**: inquiry and consultation notifications use Resend through `src/lib/email.ts`; password-reset emails use the Resend REST API in `src/app/admin/forgot/actions.ts`. Verify your sending domain in Resend and set `EMAIL_FROM` to an address on it. Set `ADMIN_NOTIFY_EMAIL` to the inbox that should receive client request notifications.
 
 ## 5. Deploy to Vercel
 1. Push to GitHub and import the repo in Vercel.

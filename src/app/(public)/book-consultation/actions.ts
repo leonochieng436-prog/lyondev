@@ -1,6 +1,7 @@
 "use server";
 import { z } from "zod";
 import { db } from "@/lib/db";
+import { sendAdminNotification } from "@/lib/email";
 import { kePhone } from "@/lib/validators";
 export type BookState = { ok: boolean; message?: string };
 const S = z.object({ type: z.string().min(2).max(80), date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/), time: z.string().regex(/^\d{2}:\d{2}$/), name: z.string().trim().min(2).max(100), email: z.string().email(), phone: kePhone, details: z.string().max(2000).optional() });
@@ -17,5 +18,9 @@ export async function book(_: BookState, fd: FormData): Promise<BookState> {
   if (await db.consultation.count({ where: { status: "CONFIRMED", startsAt: { lt: endsAt }, endsAt: { gt: startsAt } } })) return { ok: false, message: "That slot is taken. Please pick another." };
   const { date, time, ...rest } = p.data; void date; void time;
   await db.consultation.create({ data: { ...rest, startsAt, endsAt } });
+  await sendAdminNotification({
+    subject: "New consultation request",
+    text: `${p.data.name} (${p.data.email}, ${p.data.phone}) requested a ${p.data.type} on ${p.data.date} at ${p.data.time} (East Africa Time).${p.data.details ? `\n\nDetails:\n${p.data.details}` : ""}`,
+  });
   return { ok: true, message: "Request received. We will confirm your appointment by email or phone." };
 }
